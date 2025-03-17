@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif; 
+        }
+
+        .cv-flex {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .cv-style {
+            height: 100vh;
+            width: 768px;
+            min-width: 768px;
+            border-style: solid;
+            border-width: 3px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+        }
+
+        .cv-text-flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 70%;
+            padding: 5%;
+        }
+        ul {
+            list-style-type: none;
+        }
+        #across-the-web {
+            align-self: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cv-flex">
+        <main class="cv-style">
+            <div class="cv-text-flex">
+                <div style="flex-grow: 1;">
+                <section id="cv-header">
+                    <hr>
+                    <h1>Sander</h1>
+                    <h3 style="color: green;">Junior Frontend Developer</h3>
+                </section>
+                <section id="cv-skills" style="align-self: flex-start;">
+                    <p>HTML, CSS, JAVSCRIPT, FIGMA, Responsive Web Design</p>
+                </section>
+                <section id="cv-education">
+                    <ul style="padding: 0;">
+                        <li>
+                            <h2 style="color: blue; padding: 0;">Broklede, Breukelen, HAVO.</h2>
+                            <p>Jaar 2015 - 2020</p>
+                            <p><ul>
+                                <li>N&G vakkenpakket</li>
+                                <li>N&T vakkenpakket</li>
+                            </ul></p>
+                        </li>
+                    </ul>
+                </section>
+                <section id="cv-experiance">
+                    <ul style="padding: 0;">
+                        <li>
+                            <h2 style="color: blue; padding: 0;">Junior Frontend Developer</h2>
+                            <p>Jaar 2020 - heden</p>
+                            <p>Ik ben een junior frontend developer die graag wil leren en groeien in de wereld van web development. Ik ben bekend met HTML, CSS en Javascript en ben bezig met het leren van React. Ik ben ook bekend met Figma en heb ervaring met het maken van responsive web designs.</p>
+                        </li>
+                    </ul>
+
+                </section>
+            </div>
+                <footer id="cv-across-the-web">
+                    <h2>Across the web</h2>
+                    <ul style="display: flex; gap: 10px; padding: 0;">
+                        <li><a href="linked.com">LinkedIn</a></li>
+                        <li><a href="github.com">GitHub</a></li>
+                    </footer>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
