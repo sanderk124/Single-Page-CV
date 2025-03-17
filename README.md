@@ -59,4 +59,4 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## Project Link
 
-Project Link: [https://github.com/your-username/single-page-cv](https://github.com/your-username/single-page-cv)
+Project Link: [https://roadmap.sh/projects/single-page-cv]
